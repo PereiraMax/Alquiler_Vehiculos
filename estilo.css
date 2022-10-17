@@ -1,0 +1,59 @@
+body{
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center;
+   /* opacity:0.8;*/
+}
+#datos{
+    background-color: rgb(238, 234, 8);
+    border-color: black;
+    border-radius: 20px;
+    height: 100px;
+
+}
+#lugar,#finicio,#hinicio,#ffin,#hfin,#boton{
+
+    float:left;
+    padding:5;
+    margin:2;
+    text-align:center;
+    height: 80px;
+    font-family: cursive;
+    font-size: medium;
+    opacity:1; 
+}
+#lugar{
+    width: 40%;
+    background-color: aliceblue;
+    border-radius: 3px;
+
+}    
+#finicio,#ffin{
+    width: 15%;
+    background-color: aliceblue;
+    border-radius: 3px;
+    
+}  
+#hinicio,#hfin{
+    width: 10%;
+    background-color: aliceblue;
+    border-radius: 3px;
+    
+}  
+#boton{
+    width: 10%;
+    background-color: aliceblue;
+    border-radius: 3px;
+    
+}  
+input{
+      float:none;
+      width: 100px;
+      height: 20px;
+      border:none;
+}
+#ok{
+    background-color: chartreuse;
+    width: 100px;
+    height: 80px;
+}
